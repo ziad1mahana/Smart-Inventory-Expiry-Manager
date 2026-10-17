@@ -1,6 +1,6 @@
 """
 Smart Inventory & Expiry Manager - Main Streamlit Application
-Course: Introduction to Algorithms | Instructor: Dr. Fatma Talaat | Team: Axiom
+Inventory management application built with Streamlit and Python
 
 A modern, SaaS-grade Inventory & Expiry Management dashboard designed for small businesses
 and educational algorithm demonstration.
@@ -24,7 +24,7 @@ import storage
 # -----------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="Smart Inventory & Expiry Manager | Team Axiom",
+    page_title="Smart Inventory & Expiry Manager",
     page_icon="📦",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -340,16 +340,8 @@ with st.sidebar:
         <div style="display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; background: rgba(6, 182, 212, 0.15); border-radius: 10px; border: 1px solid rgba(6, 182, 212, 0.35); font-size: 1.6rem; margin-bottom: 8px;">
             📦
         </div>
-        <h2 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.01em;">Axiom Inventory</h2>
+        <h2 style="margin: 0; font-size: 1.25rem; font-weight: 800; color: #FFFFFF; letter-spacing: -0.01em;">Inventory Manager</h2>
         <p style="margin: 2px 0 0 0; font-size: 0.78rem; color: #06B6D4; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em;">Smart Expiry Manager</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-    st.markdown("""
-    <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); padding: 10px 12px; border-radius: 8px; margin-bottom: 14px; font-size: 0.78rem; line-height: 1.45;">
-        <div style="color: #94A3B8;">🎓 <strong>Course:</strong> Intro to Algorithms</div>
-        <div style="color: #94A3B8;">👩‍🏫 <strong>Instructor:</strong> Dr. Fatma Talaat</div>
-        <div style="color: #06B6D4;">⚡ <strong>Team:</strong> Axiom</div>
     </div>
     """, unsafe_allow_html=True)
 
